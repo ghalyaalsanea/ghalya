@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 9pt;
+    color: black;
+    background-color: white;
+  }
+  
+  h2 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin:20px 50px;
+    font-size: 14pt;
+  }
+
+  p {
+    margin:20px 50px;
+  }
+  
+  button {
+    color: black;
+    background-color: white;
+    /* border: #da4f81; */
+    padding: 5px 20px;
+  }
+
+  button:hover {
+    background-color: #ccc;
+    color: black;
+  }
+
+  button:focus {
+    color: white;
+    background-color: #fe6d73;
+  }
+
+  #chart {
+    width: 100%;
+    height: 85vh;
+  }
+
+  .buttons {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  .axisLabel {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14pt;
+  }
+  
+  .axis {
+    font-size: 9pt;
+  }
